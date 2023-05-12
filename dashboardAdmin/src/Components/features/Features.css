@@ -1,0 +1,49 @@
+.features{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+.featureItem{
+    flex: 1;
+   margin: 1.2%;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: auto;
+    width: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
+.featureTitle{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.featureContainer{
+    display: flex;
+    align-items: center;
+    margin: 10px 3px;
+}
+
+.featureMony{
+    font-size: 32px;
+    font-weight: 500;
+    
+}
+.featureRate{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.featuresIcon{
+    font-size: 20px;
+    margin-left: 5px;
+    color: green;
+}
+
+.featuresIcon.negative{
+    color: red;
+}
+
+.featureSub{
+    font-size: 17px;
+    color: #444;
+}

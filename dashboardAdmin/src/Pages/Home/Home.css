@@ -1,0 +1,19 @@
+.home{
+    flex: 5;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.homeWidgets{
+ width: 100%;
+ display: grid;
+ justify-content: center;
+ grid-template-columns: 38% 59%;
+ gap: 10px;
+}
+
+@media screen and (max-width: 650px) {
+.homeWidgets{
+  grid-template-columns: 97%;
+}
+}

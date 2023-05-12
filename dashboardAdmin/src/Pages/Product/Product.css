@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.product{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: auto;
+    gap: 2%;
+   
+    align-content: center;
+   
+  
+}
+.productTitleContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.productTitle{}
+
+.productTop{
+ 
+    max-width: 100%;
+    
+    display: grid;
+    grid-template-columns: 49.5% 49.5%;
+   
+justify-content: space-between;
+align-content: center;
+align-self: center;
+align-items: center;
+
+}
+.productTopLeft{
+    margin-top: 2%;
+    width: 100%;
+    
+}
+.productTopRight{
+    margin-top: 2%;
+    max-width: 100%;
+    padding: 4%;
+   
+   
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px !important;
+}
+.productTopInfo{
+    display: flex;
+    align-items: center;
+
+}
+.productInfoName{
+    font-weight: 600px;
+}
+.productInfoImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.productInfoBottom{
+   margin-top: 3%;
+    width: 100%;
+}
+.productInfoItem{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.productInfoKey{
+    font-weight: 600;
+}
+.productInfoValue{
+    font-weight: 300;
+}
+
+
+
+.productBottom{
+  margin-left: 0.5%;
+   max-width:100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px !important;
+}
+.productForm{
+    padding: 2%;
+    display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.productFormLeft{
+    display: flex;
+    flex-direction: column;
+}
+.productFormLeft >h3{
+    font-weight: 500;
+    color: gray;
+}
+.productFormLeft > label{
+    margin: 10px 0;
+    color: gray;
+}
+
+.productFormLeft >input{
+margin-bottom: 10px;
+border: none;
+padding: 5px;
+border-bottom:1px solid black;
+}
+.productFormLeft >input:focus{
+    outline: none;
+}
+.productFormRight{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+
+}
+.productFormUploader{
+    display: flex;
+ align-items: center;
+}
+.productFormUploader img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+
+
+
+
+@media screen and (max-width: 750px) {
+    .productTop{
+      grid-template-columns: 100%;
+     
+    }
+    .productBottom{
+        margin-left: 0%;}
+    }
+    
